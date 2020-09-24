@@ -41,4 +41,4 @@ mainHandler.post(new Runnable() {
 });
 ```
 
-*说明：主要区分android9（android Q）及以上，android9以下。*
+*说明：主要区分android10（android Q）及以上，android10以下。*
