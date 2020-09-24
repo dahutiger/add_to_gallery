@@ -1,7 +1,8 @@
 # add_to_gallery
 # 图片加入图库适配
 *Why？*
-###### android碎片化，同存的android系统版本过多，从android5.0到现在的android11，导致一些功能适配变得困难。本代码库是为适配图片加入系统相册功能而建。主要代码见 ImagePopupUtils.saveBmpToAlbum()方法，核心代码如下：
+###### android碎片化，同存的android系统版本过多，从android5.0到现在的android11，导致一些功能适配变得困难。
+###### 本代码库是为适配图片加入系统相册功能而建。主要代码见 ImagePopupUtils.saveBmpToAlbum()方法，核心代码如下：
 ```
 if (AppUtil.isAndroidQ()) {
     Uri uri1 = Media.getContentUri(MediaStore.VOLUME_EXTERNAL);
