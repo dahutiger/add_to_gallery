@@ -92,7 +92,7 @@ public class PermissionUtil {
         return null;
     }
 
-    public static boolean checkPermission(Activity activity) {
+    public static boolean checkStoragePermission(Activity activity) {
         boolean hasPermission;
         List<String> permissions = new ArrayList<>();
         permissions.add(Manifest.permission.READ_EXTERNAL_STORAGE);

@@ -467,7 +467,7 @@ public class ImageViewerPopupView extends BasePopupView implements OnDragChangeL
      * 保存图片到相册，会自动检查是否有保存权限
      */
     protected void save() {
-        if (!PermissionUtil.checkPermission((Activity) context)) {
+        if (!PermissionUtil.checkStoragePermission((Activity) context)) {
             return;
         }
         //check permission

@@ -20,10 +20,7 @@ import java.util.List;
 
 public class MainActivity2 extends AppCompatActivity {
     
-    
-    private List<String> urls = new ArrayList<>();
     private BasePopupView popupView;
-    
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +41,8 @@ public class MainActivity2 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        
+    
+        List<String> urls = new ArrayList<>();
         urls.add("https://sf-app-1257989287.cos.ap-shanghai.myqcloud.com/pic/receipt/2020-01-13/10000066-10-42-1578898203829.jpg");
         urls.add("https://sf-app-1257989287.cos.ap-shanghai.myqcloud.com/pic/receipt/2020-01-13/10000066-10-42-1578896366146.jpg");
         urls.add("https://sf-app-1257989287.cos.ap-shanghai.myqcloud.com/pic/certification/2018-11-28/10000066-1543387137053.jpg");
